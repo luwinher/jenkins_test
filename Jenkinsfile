@@ -17,7 +17,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'sudo -H pip3 install  -r requirements.txt'
+        sh 'sudo  pip3 install  -r requirements.txt'
       }
     }
 
